@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Info..."
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        android:paddingLeft="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/stud_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter student name "
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter student DOB "
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:inputType="date"
+        />
+
+    <TextView
+        android:id="@+id/mail_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter student mail_id "
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter student address "
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/stud_class"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter student class "
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:inputType="text"
+        />
+        <Button
+            android:id="@+id/btn_clk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="150dp"
+            android:onClick="submitRequest"/>
+    </LinearLayout>
+</ScrollView>

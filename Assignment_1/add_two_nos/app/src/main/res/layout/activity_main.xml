@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="::ADDITION OF TWO NUMBERS :: "
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:paddingLeft="100dp"
+        android:textColor="@color/black"
+
+    />
+
+    <TextView
+        android:id="@+id/view_answer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="600dp"
+        android:text="The Addition is :: "
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/text_first_number"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:text="Enter first number ::"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+    />
+
+    <EditText
+        android:id="@+id/edit_first_number"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="250dp" />
+
+    <TextView
+        android:id="@+id/text_second_number"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:text="Enter second number ::"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_second_number"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="400dp" />
+
+    <Button
+        android:id="@+id/addition_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="500dp"
+        android:text="Add"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
