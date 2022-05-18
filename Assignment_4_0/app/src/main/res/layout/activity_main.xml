@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="10dp"
+        android:src="@drawable/ic_baseline_add_ic_call_24"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="200dp"
+
+        />
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="10dp"
+        android:src="@drawable/ic_baseline_markunread_24"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="250dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="40dp"
+        android:text="Mobile" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="85dp"
+        android:text="9905401800" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record Inserted"
+        android:layout_marginTop="300dp"
+        android:textSize="11dp"
+        android:layout_marginLeft="120dp"/>
+
+    <TextView
+        android:id="@+id/cc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:paddingLeft="15dp"
+        android:text="Create Contact"
+        android:layout_marginLeft="230dp"/>
+
+
+    <TextView
+        android:id="@+id/ue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:paddingLeft="15dp"
+        android:text="Update existing"
+        android:layout_marginLeft="230dp"/>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="85dp"
+        android:src="@drawable/download"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="35dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="feedback">
+        <item>Good</item>
+        <item>Bad</item>
+        <item>Moderate</item>
+        <item>V.Impressive</item>
+        <item>Noicee</item>
+    </string-array>
+</resources>

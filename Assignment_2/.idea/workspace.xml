@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b53ae9a2-07d2-4b05-bfcc-5682757ce4d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_0/.idea/Assignment_2_0.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_0/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_0/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_0/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_0/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_2/app/src/main/java/com/example/first/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2_2/app/src/main/java/com/example/first/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_2/app/src/main/java/com/example/first/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2_2/app/src/main/java/com/example/first/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_3/app/src/main/java/com/example/second_ques/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2_3/app/src/main/java/com/example/second_ques/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_3/app/src/main/java/com/example/second_ques/home_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2_3/app/src/main/java/com/example/second_ques/home_activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_3/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2_3/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2_3/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2_3/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_3_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_3_1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_3_2/app/src/main/java/com/example/myapplication/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_3_2/app/src/main/java/com/example/myapplication/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_3_2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_3_2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="28QMd2drysUhpqc31ggRcVmNLYQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment_3_4" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b53ae9a2-07d2-4b05-bfcc-5682757ce4d0" name="Default Changelist" comment="" />
+      <created>1651144440518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651144440518</updated>
+    </task>
+    <servers />
+  </component>
+</project>

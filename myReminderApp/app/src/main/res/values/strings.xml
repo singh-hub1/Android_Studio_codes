@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="names">
+        <item>Fybca</item>
+        <item>Sybca</item>
+        <item>Tybca</item>
+        <item>Msc</item>
+        <item>Mca</item>
+        <item>Fybsc</item>
+        <item>Sybsc</item>
+        <item>Tybsc</item>
+
+    </string-array>
+</resources>

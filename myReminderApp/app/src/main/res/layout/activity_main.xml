@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:padding = "16dp"
+    tools:context = ".MainActivity"
+    android:background="@color/teal_700">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:text="Weekly Reminder"
+            android:textSize="35dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="createNotification"
+            android:text="Add to Remind"
+            android:layout_marginTop="1100dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:hint="Subject name"
+            android:paddingLeft="90dp"
+            />
+
+        <DatePicker
+            android:id="@+id/date_1"
+            android:layout_width="200dp"
+            android:layout_height="420dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="90dp"
+            />
+
+        <TimePicker
+            android:id="@+id/time"
+            android:layout_width="220dp"
+            android:layout_height="420dp"
+            android:layout_marginTop="720dp"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin"
+            android:layout_marginTop="640dp"
+            android:layout_marginLeft="210dp"
+             />
+
+    </RelativeLayout>
+
+</ScrollView>

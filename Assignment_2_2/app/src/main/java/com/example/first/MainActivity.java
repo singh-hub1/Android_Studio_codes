@@ -11,22 +11,26 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
 
     EditText e1,e2;
     Button btn;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         e1=(EditText) findViewById(R.id.email);
         e2=(EditText) findViewById(R.id.pass);
         btn=(Button) findViewById(R.id.btn_clk);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 String str1=e1.getText().toString();
                 String str2=e2.getText().toString();
                 String str3="login Successful";

@@ -12,18 +12,16 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Student Info..."
-        android:textSize="50dp"
-        android:textStyle="bold"
-        android:textColor="@color/teal_200"
-        android:paddingLeft="30dp"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Input page!!"
+            android:layout_marginStart="100dp"
+            android:textColor="@color/teal_200"
+            android:textSize="30dp"
+            android:textStyle="italic"/>
 
-        />
-
-    <TextView
+      <EditText
         android:id="@+id/stud_name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -35,7 +33,7 @@
         android:inputType="text"
         />
 
-    <TextView
+    <EditText
         android:id="@+id/dob"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -47,7 +45,7 @@
         android:inputType="date"
         />
 
-    <TextView
+    <EditText
         android:id="@+id/mail_id"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -59,7 +57,7 @@
         android:inputType="textEmailAddress"
         />
 
-    <TextView
+    <EditText
         android:id="@+id/addr"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -71,7 +69,7 @@
         android:inputType="text"
         />
 
-    <TextView
+    <EditText
         android:id="@+id/stud_class"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

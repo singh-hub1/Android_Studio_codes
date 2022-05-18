@@ -25,12 +25,12 @@ EditText e1,e2,e3,e4,e5;
         e2.setText(n2);
 
         String n3=getIntent().getStringExtra("k3");
-        e1.setText(n3);
+        e3.setText(n3);
 
         String n4=getIntent().getStringExtra("k4");
-        e1.setText(n4);
+        e4.setText(n4);
 
         String n5=getIntent().getStringExtra("k5");
-        e1.setText(n5);
+        e5.setText(n5);
     }
 }

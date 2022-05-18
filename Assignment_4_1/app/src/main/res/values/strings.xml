@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string-array name="names">
+        <item>Apple</item>
+        <item>Pineapple</item>
+        <item>orange</item>
+        <item>strawberry</item>
+        <item>grapes</item>
+        <item>gauva</item>
+        <item>chiku</item>
+        <item>mango</item>
+
+    </string-array>
+
+
+</resources>
